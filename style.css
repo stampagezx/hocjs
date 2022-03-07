@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.container > div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.container input {
+    height: 20px;
+    padding: 0 7px;
+}
+.controller {
+    flex-direction: row !important; 
+    justify-content: space-around;
+}
+.controller > div {
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+.start-btn {
+    background-color: #53A553;
+}
+.start-btn:hover {
+    background-color: #448344;
+    
+}
+.break-btn {
+    background-color: #D89B45;
+}
+.break-btn:hover {
+    background-color: #b8833a;
+}
+.continue-btn {
+    background-color: #2E6EA4;
+}
+.continue-btn:hover {
+    background-color: #275880;
+}
